@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="usuario">User</string>
+    <string name="correo">Email</string>
+    <string name="telefono">Telephone Number</string>
+    <string name="fecha">Birth Date</string>
+
+    <string name="eTexto_correo">Email:</string>
+    <string name="eTexto_contrasena">Password:</string>
+    <string name="eTexto_usuario">User:</string>
+    <string name="eTexto_telefono">Telephone Number:</string>
+    <string name="eTexto_fecha">Birth Date:</string>
+    <string name="btn_login">Log In</string>
+    <string name="btn_register">Sign Up.</string>
+    <string name="btn_help">Get Help.</string>
+    <string name="btn_create">Create</string>
+    <string name="vTexto_help">Forgot Password?</string>
+
+    <string name="vTexto_register">Do not have an account yet?</string>
+    <string name="vTexto_crea">Creat your account</string>
+    <string name="vTexto_or_reister">Or sign up with</string>
+    <string name="msg_usuario">Field to enter your username</string>
+    <string name="msg_contraseña">Campo para ingresar su contraseña</string>
+    <string name="fallo_registro">Field to enter your password</string>
+    <string name="fallo_login">User login failed</string>
+    <string name="btn_next">Next</string>
+    <string name="vTexto_accede">Access your account</string>
+    <string name="accede_op_01">Send an e-mail</string>
+    <string name="accede_op_02">Send a SMS</string>
+    <string name="vTexto_recupera">Recover your account</string>
+    <string name="vTexto_recupera_02">Enter your username, email or phone number associated with your account.</string>
+    <string name="title_activity_principal">Main</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="info_obten_ayuda">Enter your username, email or phone number associated with your account.</string>
+
+    <string name="general">General</string>
+    <string name="herramientas">Tools</string>
+    <string name="CalificarApp">Rate App</string>
+    <string name="descripcion">Description</string>
+    <string name="chat">Live Chat </string>
+    <string name="Acerca">About</string>
+
+    <string name="descripcion_int">Description</string>
+    <string name="like">Do you like Coffee Station?</string>
+    <string name="instruccion">Tap a star to rate the app on the Play Store.</string>
+    <string name="info_int_descripcion">Coffee Station is an application that provides a virtual coffee shop service however, the application is expandable (scalability) with options for users to visit and select their favorite coffee shops with unique interfaces and menus for each of them.</string>
+    <string name="negacion">Not Now</string>
+    <string name="acerca_int">About</string>
+    <string name="contactarnos">You can contact us via email</string>
+    <string name="mas_info">For more information visit</string>
+
+    <string name="notificaciones">Notifications</string>
+    <string name="info_notificaciones">Notification Settings</string>
+    <string name="idioma">Language</string>
+    <string name="version">Version</string>
+    <string name="info_version">1.0</string>
+
+    <string name="interfaz_notif">Allow all notifications</string>
+    <string name="barra_busqueda">Search by name...</string>
+
+    <string name="contacto">Contact</string>
+    <string name="menu">Menu</string>
+    <string name="ubicacion">Location</string>
+
+    <string name="aperitivos">Appetizers</string>
+    <string name="cafes">Coffees</string>
+
+    <string name="carrito">Shopping Cart</string>
+    <string name="producto">Product</string>
+    <string name="cantidad">Quantity</string>
+    <string name="total">Total</string>
+    <string name="comentarios">Comments</string>
+    <string name="en_total">Total Shipping</string>
+    <string name="metodo_pago">Choose your payment method</string>
+    <string name="tarjeta">Gift Card and Codes</string>
+    <string name="terminos">I agree to the service terms. (Read the Service Terms)</string>
+    <string name="comprar">Purchase</string>
+
+    <string name="compra_realizada">Successful purchase </string>
+    <string name="agradecimiento">Thanks!</string>
+    <string name="msg_compra">The company thanks you very much for buying from us and trusting in our products.</string>
+    <string name="msg_compra_dos">We will be at your disposal for any questions. Follow us on networks or send us an email.</string>
+    <string name="despedida">We await your return...</string>
+
+    <string name="de">From:</string>
+    <string name="precio">Price:</string>
+    <string name="descrip_cafe">Description:</string>
+    <string name="cafe_descrip">Cappuccino is a drink born in Italy, made with espresso and steamed milk for creaminess. A cappuccino is made up of 125 ml of milk and 25 ml of espresso.</string>
+
+    <string name="menu_cafeteria">Cafeteria</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_acept">Accept</string>
+    <string name="fallo_completar_espacios">Fill in the required spaces</string>
+    <string name="btn_ver_mas">More</string>
+
+    <string name="cafe_capp">Cappuccino</string>
+    <string name="boutique_cafe">Boutique Café</string>
+    <string name="bajo_sombra">Cafetería Bajo Sombra</string>
+    <string name="precio_capp">₡ 1300</string>
+
+    <string name="frappucino">Frappuccino</string>
+    <string name="info_frapp">Frappuccino is an acronym for frappé and cappuccino, an espresso coffee with milk foam. also sold as a bottled drink in stores and in vending machines.</string>
+    <string name="precio_frapp">₡ 3400</string>
+
+    <string name="cold_brew">Cold Brew</string>
+    <string name="info_cold">This cold-brewed coffee, according to several studies, is 60% less acidic and bitter than hot-brewed coffees.</string>
+    <string name="precio_cold">₡ 2100</string>
+
+    <string name="moca">Mocha</string>
+    <string name="info_moca">A mocha is a variant of coffee with milk. Like this one, it usually has one third of espresso and two thirds of steamed milk, but a part of chocolate is added, the mochas contain dark or milk chocolate.</string>
+    <string name="precio_moca">₡ 3000</string>
+
+    <string name="frio">Cold Coffee</string>
+    <string name="info_frio">Cold coffee is basically a way of preparing coffee, in which the already roasted and ground beans are immersed in water at cold or room temperature for a period of time.</string>
+    <string name="precio_frio">₡ 2775</string>
+
+    <string name="lagrima">Tear Coffee</string>
+    <string name="info_lagrima">Tear coffee is a way of preparing coffee that consists of a cup with a third of coffee and the rest milk.</string>
+    <string name="precio_lagrima">₡ 3115</string>
+
+    <string name="cafe_negro">Black Coffee</string>
+    <string name="info_cn">Drink that is prepared with ground coffee and water, generally consumed in all parts of Mexico. Formerly it was made only with coffee beans.</string>
+    <string name="precio_cn">₡ 1900</string>
+
+    <string name="ristretto">Ristretto</string>
+    <string name="info_ris">Ristretto in Italian means "limited or restricted", so ristretto coffee is nothing more than a short espresso prepared with the same amount of coffee, but extracted with half the water.</string>
+    <string name="precio_ris">₡ 1500</string>
+
+    <string name="latte">Latte</string>
+    <string name="info_latte">Latte is the big brother of the cappuccino, where everything revolves around the silky smooth foam.</string>
+    <string name="precio_latte">₡ 1150</string>
+
+    <string name="precio_lagrima_bc">₡ 3195</string>
+
+    <string name="doppio">Doppio</string>
+    <string name="info_doppio">A doppio is an espresso made with two batches, extracted using a double coffee filter.</string>
+    <string name="precio_doppio">₡ 1175</string>
+
+    <string name="affogato">Affogato</string>
+    <string name="info_affogato">Affogato is a dessert made with two main ingredients: vanilla ice cream and espresso coffee.</string>
+    <string name="precio_affogato">₡ 1550</string>
+
+    <string name="precio_ris_bc">₡ 1400</string>
+
+    <string name="precio_cold_bc">₡ 1950</string>
+
+    <string name="expresso">Espresso</string>
+    <string name="info_exp">Espresso is an intense coffee drink, prepared at high temperature at high pressure and in a short space of time.</string>
+    <string name="precio_exp">₡ 1600</string>
+
+    <string name="vienes">Viennese</string>
+    <string name="info_vie">Viennese coffee is an espresso topped with whipped or whipped cream. It is called like this because it is very characteristic of the cafes of Vienna and Budapest.</string>
+    <string name="precio_vie">₡ 1750</string>
+
+    <string name="btn_comprar">Buy</string>
+    <string name="btn_term">I agree to the service terms. (Read the Service Terms)</string>
+    <string name="tarjeta_de_regalo">Gift card</string>
+    <string name="tarjeta_de_pago">Credit or debit card</string>
+    <string name="paypal">Paypal</string>
+    <string name="btn_ok">OK</string>
+    <string name="anadido">Added</string>
+    <string name="anadir">Add to cart</string>
+    <string name="total_product">Total Products</string>
+    <string name="favoritos">Favorites</string>
+    <string name="fallo_permisos">You need to enable the permission</string>
+    <string name="fallo_mensaje">Please, add comments</string>
+    <string name="vista_comen">Comment List</string>
+    <string name="recuperar">Recover</string>
+    <string name="eliminar">Delete</string>
+    <string name="enviar">Send</string>
+    <string name="enviado">Comment Sent Successfully</string>
+    <string name="actualizar">Update</string>
+    <string name="falta">No comments available</string>
+</resources>

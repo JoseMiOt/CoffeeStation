@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CafeteriaBoutiqueCafe"
+    android:background="#221717">
+
+    <ImageView
+        android:id="@+id/img_background"
+        android:layout_width="416dp"
+        android:layout_height="388dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/fondo" />
+
+    <Button
+        android:id="@+id/btn_contacto"
+        android:layout_width="97dp"
+        android:layout_height="39dp"
+        android:autoText="false"
+        android:backgroundTint="#221717"
+        android:text="@string/contacto"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_barra"
+        app:layout_constraintEnd_toEndOf="@+id/img_barra"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_barra"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <Button
+        android:id="@+id/btn_ubicacion"
+        android:layout_width="97dp"
+        android:layout_height="39dp"
+        android:autoText="false"
+        android:backgroundTint="#221717"
+        android:text="@string/ubicacion"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_barra"
+        app:layout_constraintEnd_toEndOf="@+id/img_barra"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_barra"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <ImageView
+        android:id="@+id/img_barra"
+        android:layout_width="415dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42"
+        app:srcCompat="@drawable/barra_menu_bcafe" />
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="412dp"
+        android:layout_height="233dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo_bcafe" />
+
+    <TextView
+        android:id="@+id/tv_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/img_barra"
+        app:layout_constraintEnd_toEndOf="@+id/img_barra"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/img_barra"
+        app:layout_constraintTop_toTopOf="@+id/img_barra"
+        app:layout_constraintVertical_bias="0.488" />
+
+    <ImageView
+        android:id="@+id/img_lupa"
+        android:layout_width="42dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_barra"
+        app:layout_constraintEnd_toEndOf="@+id/img_barra"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="@+id/img_barra"
+        app:layout_constraintTop_toTopOf="@+id/img_barra"
+        app:layout_constraintVertical_bias="0.518"
+        app:srcCompat="@drawable/ic_search_02" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="410dp"
+        android:layout_height="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_logo"
+        app:layout_constraintVertical_bias="0.960">
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="415dp"
+            android:layout_height="320dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="206dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteY="73dp">
+
+                    <ImageView
+                        android:id="@+id/img_Capuccino"
+                        android:layout_width="126dp"
+                        android:layout_height="172dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.013"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.31"
+                        app:srcCompat="@drawable/cafe_capuccino" />
+
+                    <Button
+                        android:id="@+id/btn_cafe_capuccino"
+                        android:layout_width="62dp"
+                        android:layout_height="31dp"
+                        android:backgroundTint="#D8A13C"
+                        android:text="@string/btn_ver_mas"
+                        android:textSize="6sp"
+                        app:cornerRadius="5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.091"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.908" />
+
+                    <Button
+                        android:id="@+id/btn_cafe_latte"
+                        android:layout_width="62dp"
+                        android:layout_height="31dp"
+                        android:backgroundTint="#D8A13C"
+                        android:text="@string/btn_ver_mas"
+                        android:textSize="6sp"
+                        app:cornerRadius="5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.908" />
+
+                    <Button
+                        android:id="@+id/btn_cafe_lagrima"
+                        android:layout_width="62dp"
+                        android:layout_height="31dp"
+                        android:backgroundTint="#D8A13C"
+                        android:text="@string/btn_ver_mas"
+                        android:textSize="6sp"
+                        app:cornerRadius="5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.900"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.908" />
+
+                    <ImageView
+                        android:id="@+id/img_latte"
+                        android:layout_width="126dp"
+                        android:layout_height="172dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.31"
+                        app:srcCompat="@drawable/cafe_latte" />
+
+                    <ImageView
+                        android:id="@+id/img_lagrima"
+                        android:layout_width="126dp"
+                        android:layout_height="172dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.979"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.31"
+                        app:srcCompat="@drawable/cafe_lagrima_02" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="188dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteY="73dp">
+
+                    <ImageView
+                        android:id="@+id/img_espresso"
+                        android:layout_width="126dp"
+                        android:layout_height="172dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/cafe_espresso" />
+
+                    <Button
+                        android:id="@+id/btn_cafe_cold_brew"
+                        android:layout_width="62dp"
+                        android:layout_height="31dp"
+                        android:backgroundTint="#D8A13C"
+                        android:text="@string/btn_ver_mas"
+                        android:textSize="6sp"
+                        app:cornerRadius="5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.086"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.910" />
+
+                    <Button
+                        android:id="@+id/btn_cafe_espresso"
+                        android:layout_width="62dp"
+                        android:layout_height="31dp"
+                        android:backgroundTint="#D8A13C"
+                        android:text="@string/btn_ver_mas"
+                        android:textSize="6sp"
+                        app:cornerRadius="5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.910" />
+
+                    <Button
+                        android:id="@+id/btn_cafe_vienes"
+                        android:layout_width="62dp"
+                        android:layout_height="31dp"
+                        android:backgroundTint="#D8A13C"
+                        android:text="@string/btn_ver_mas"
+                        android:textSize="6sp"
+                        app:cornerRadius="5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.900"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.910" />
+
+                    <ImageView
+                        android:id="@+id/img_vienes"
+                        android:layout_width="126dp"
+                        android:layout_height="172dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.978"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/cafe_vienes" />
+
+                    <ImageView
+                        android:id="@+id/img_cold_brew"
+                        android:layout_width="126dp"
+                        android:layout_height="172dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.014"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/cafe_cold_brew" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="195dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteY="73dp">
+
+                    <ImageView
+                        android:id="@+id/img_affogato"
+                        android:layout_width="126dp"
+                        android:layout_height="172dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/cafe_affogato" />
+
+                    <Button
+                        android:id="@+id/btn_cafe_doppio"
+                        android:layout_width="62dp"
+                        android:layout_height="31dp"
+                        android:backgroundTint="#D8A13C"
+                        android:text="@string/btn_ver_mas"
+                        android:textSize="6sp"
+                        app:cornerRadius="5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.077"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.90" />
+
+                    <Button
+                        android:id="@+id/btn_cafe_affogato"
+                        android:layout_width="62dp"
+                        android:layout_height="31dp"
+                        android:backgroundTint="#D8A13C"
+                        android:text="@string/btn_ver_mas"
+                        android:textSize="6sp"
+                        app:cornerRadius="5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.90" />
+
+                    <Button
+                        android:id="@+id/btn_cafe_ristretto"
+                        android:layout_width="62dp"
+                        android:layout_height="31dp"
+                        android:backgroundTint="#D8A13C"
+                        android:text="@string/btn_ver_mas"
+                        android:textSize="6sp"
+                        app:cornerRadius="5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.900"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.90" />
+
+                    <ImageView
+                        android:id="@+id/img_ristretto"
+                        android:layout_width="126dp"
+                        android:layout_height="172dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.978"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/cafe_ristretto" />
+
+                    <ImageView
+                        android:id="@+id/img_doppio"
+                        android:layout_width="126dp"
+                        android:layout_height="172dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.014"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0"
+                        app:srcCompat="@drawable/cafe_doppio" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

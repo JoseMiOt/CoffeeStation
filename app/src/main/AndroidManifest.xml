@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.coffeestation">
+    <!-- Este permiso es para informar al android que esta app eventualmente hace llamadas telefonicas -->
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- Este permiso es para informar al android que esta app puede acceder a la galeria del celular -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Este permiso es para informar al android que esta app puede enviar mensajes de texto -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CoffeeStation">
+        <activity
+            android:name=".Comentarios"
+            android:exported="false" />
+        <activity
+            android:name=".Favoritos"
+            android:exported="false" />
+        <activity
+            android:name=".CafeVienes"
+            android:exported="false" />
+        <activity
+            android:name=".CafeRistrettoBC"
+            android:exported="false" />
+        <activity
+            android:name=".CafeLatte"
+            android:exported="false" />
+        <activity
+            android:name=".CafeLagrimaBC"
+            android:exported="false" />
+        <activity
+            android:name=".CafeExpresso"
+            android:exported="false" />
+        <activity
+            android:name=".CafeDoppio"
+            android:exported="false" />
+        <activity
+            android:name=".CafeColdBrewBC"
+            android:exported="false" />
+        <activity
+            android:name=".CafeAffogato"
+            android:exported="false" />
+        <activity
+            android:name=".CafeLagrima"
+            android:exported="false" />
+        <activity
+            android:name=".CafeRistretto"
+            android:exported="false" />
+        <activity
+            android:name=".CafeNegro"
+            android:exported="false" />
+        <activity
+            android:name=".CafeFrio"
+            android:exported="false" />
+        <activity
+            android:name=".CafeMoca"
+            android:exported="false" />
+        <activity
+            android:name=".CafeColdBrew"
+            android:exported="false" />
+        <activity
+            android:name=".CafeFrappuccino"
+            android:exported="false" />
+        <activity
+            android:name=".CarritoDeCompras"
+            android:exported="false" />
+        <activity
+            android:name=".Agradecimiento"
+            android:exported="false" />
+        <activity
+            android:name=".CafeteriaBoutiqueCafe"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".CafeteriaBajoSombra"
+            android:exported="false" />
+        <activity
+            android:name=".InfoCafe"
+            android:exported="false" />
+        <activity
+            android:name=".Galeria"
+            android:exported="false" />
+        <activity
+            android:name=".InfoUsuario"
+            android:exported="false" />
+        <activity
+            android:name=".AcercaDe"
+            android:exported="false" />
+        <activity
+            android:name=".Notificaciones"
+            android:exported="false" />
+        <activity
+            android:name=".Herramientas"
+            android:exported="false" />
+        <activity
+            android:name=".Descripcion"
+            android:exported="false" />
+        <activity
+            android:name=".CalificarApp"
+            android:exported="false" />
+        <activity
+            android:name=".General"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroCuenta"
+            android:exported="false" />
+        <activity
+            android:name=".CrearCuenta"
+            android:exported="false" />
+        <activity
+            android:name=".AccederCuenta"
+            android:exported="false" />
+        <activity
+            android:name=".ObtenAyuda"
+            android:exported="false" />
+        <activity
+            android:name=".UbicacionBajoSombra"
+            android:exported="false" />
+        <activity
+            android:name=".UbicacionBoutiqueCafe"
+            android:exported="false" />
+        <activity
+            android:name=".Principal"
+            android:exported="false"
+            android:label="@string/title_activity_principal"
+            android:theme="@style/Theme.CoffeeStation.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

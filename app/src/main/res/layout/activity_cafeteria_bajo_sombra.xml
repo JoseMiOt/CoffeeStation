@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CafeteriaBajoSombra"
+    android:background="#1A1414">
+
+    <ImageView
+        android:id="@+id/img_barra"
+        android:layout_width="415dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43"
+        app:srcCompat="@drawable/barra_menu_bs" />
+
+    <ImageView
+        android:id="@+id/img_lupa"
+        android:layout_width="42dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_barra"
+        app:layout_constraintEnd_toEndOf="@+id/img_barra"
+        app:layout_constraintHorizontal_bias="0.981"
+        app:layout_constraintStart_toStartOf="@+id/img_barra"
+        app:layout_constraintTop_toTopOf="@+id/img_barra"
+        app:srcCompat="@drawable/ic_search_02" />
+
+    <TextView
+        android:id="@+id/tv_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/img_barra"
+        app:layout_constraintEnd_toEndOf="@+id/img_barra"
+        app:layout_constraintStart_toStartOf="@+id/img_barra"
+        app:layout_constraintTop_toTopOf="@+id/img_barra" />
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="412dp"
+        android:layout_height="233dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo_bs" />
+
+    <Button
+        android:id="@+id/btn_contacto"
+        android:layout_width="97dp"
+        android:layout_height="39dp"
+        android:autoText="false"
+        android:backgroundTint="#000000"
+        android:text="@string/contacto"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_barra"
+        app:layout_constraintEnd_toEndOf="@+id/img_barra"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_barra"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <Button
+        android:id="@+id/btn_ubicacion"
+        android:layout_width="97dp"
+        android:layout_height="39dp"
+        android:autoText="false"
+        android:backgroundTint="#000000"
+        android:text="@string/ubicacion"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_barra"
+        app:layout_constraintEnd_toEndOf="@+id/img_barra"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_barra"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="405dp"
+        android:layout_height="357dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_barra"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ScrollView
+            android:layout_width="405dp"
+            android:layout_height="299dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.07999998"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_frappuccino"
+                    android:layout_width="410dp"
+                    android:layout_height="241dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/frappuccino" />
+
+                <ImageView
+                    android:id="@+id/iv_coldbrew"
+                    android:layout_width="190dp"
+                    android:layout_height="216dp"
+                    android:layout_marginTop="24dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/iv_frappuccino"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/cold_brew" />
+
+                <ImageView
+                    android:id="@+id/iv_moca"
+                    android:layout_width="222dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.45"
+                    app:srcCompat="@drawable/cafe_moca" />
+
+                <ImageView
+                    android:id="@+id/iv_frio"
+                    android:layout_width="221dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.62"
+                    app:srcCompat="@drawable/cafe_frio" />
+
+                <ImageView
+                    android:id="@+id/iv_cn"
+                    android:layout_width="221dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.994"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.8"
+                    app:srcCompat="@drawable/cafe_negro" />
+
+                <ImageView
+                    android:id="@+id/iv_ristretto"
+                    android:layout_width="221dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="5dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.994"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/ristretto" />
+
+                <ImageView
+                    android:id="@+id/iv_lagrima"
+                    android:layout_width="190dp"
+                    android:layout_height="215dp"
+                    android:layout_marginTop="244dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/iv_frappuccino"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/cafe_lagrima" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

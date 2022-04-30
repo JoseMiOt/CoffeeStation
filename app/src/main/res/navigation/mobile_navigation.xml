@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_cafeteria">
+
+    <fragment
+        android:id="@+id/nav_cafeteria"
+        android:name="com.coffeestation.ui.cafeteria.CafetriaFragment"
+        android:label="@string/menu_cafeteria"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_nav_cafeteria_to_nav_infoUsuario"
+            app:destination="@id/nav_infoUsuario" />
+        <action
+            android:id="@+id/action_nav_cafeteria_to_nav_general"
+            app:destination="@id/nav_general" />
+        <action
+            android:id="@+id/action_nav_cafeteria_to_nav_cafeteriaBajoSombra"
+            app:destination="@id/nav_cafeteriaBajoSombra" />
+        <action
+            android:id="@+id/action_nav_cafeteria_to_nav_cafeteriaBoutiqueCafe"
+            app:destination="@id/nav_cafeteriaBoutiqueCafe" />
+        <action
+            android:id="@+id/action_nav_cafeteria_to_nav_carritoDeCompras"
+            app:destination="@id/nav_carritoDeCompras" />
+        <action
+            android:id="@+id/action_nav_cafeteria_to_nav_favoritos"
+            app:destination="@id/nav_favoritos" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.coffeestation.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.coffeestation.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <activity
+        android:id="@+id/nav_infoUsuario"
+        android:name="com.coffeestation.InfoUsuario"
+        android:label="activity_info_usuario"
+        tools:layout="@layout/activity_info_usuario" />
+    <activity
+        android:id="@+id/nav_general"
+        android:name="com.coffeestation.General"
+        android:label="activity_general"
+        tools:layout="@layout/activity_general" />
+    <activity
+        android:id="@+id/nav_cafeteriaBajoSombra"
+        android:name="com.coffeestation.CafeteriaBajoSombra"
+        android:label="activity_cafeteria_bajo_sombra"
+        tools:layout="@layout/activity_cafeteria_bajo_sombra" />
+    <activity
+        android:id="@+id/nav_cafeteriaBoutiqueCafe"
+        android:name="com.coffeestation.CafeteriaBoutiqueCafe"
+        android:label="activity_cafeteria_boutique_cafe"
+        tools:layout="@layout/activity_cafeteria_boutique_cafe" />
+    <activity
+        android:id="@+id/nav_carritoDeCompras"
+        android:name="com.coffeestation.CarritoDeCompras"
+        android:label="activity_carrito_de_compras"
+        tools:layout="@layout/activity_carrito_de_compras" />
+    <activity
+        android:id="@+id/nav_favoritos"
+        android:name="com.coffeestation.Favoritos"
+        android:label="activity_favoritos"
+        tools:layout="@layout/activity_favoritos" />
+</navigation>
